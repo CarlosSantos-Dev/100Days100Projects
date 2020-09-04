@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #2e2e2e;
+    color: whitesmoke;
+    font-family: lato;
+    text-align: center;
+    margin: 0;
+    justify-content: center;
+}
+
+#instruct {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#getMealBtt {
+    background-color: #0ea1ce;
+    color: white;
+    margin: 20px;
+    padding: 15px;
+    box-shadow: 0 5px rgb(122, 122, 122);
+    border-radius: 15px;
+    border: none;
+}
+
+#getMealBtt:hover {
+    background-color: #0883a8;
+    cursor: pointer;
+}
+
+#getMealBtt:focus {
+    outline-style: none;
+}
+
+#getMealBtt:active {
+    box-shadow: 0 2px rgb(122, 122, 122);
+    transform: translateY(3px);
+}
+
+div #column1 {
+    max-width: 35%;
+    margin: 20px 10px 0 auto;
+    text-align: left;
+    justify-content: left;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#column1 img {
+    width: 400px;
+    max-width: 100%;
+    margin: 15px 0;
+}
+
+#column1 p {
+    margin: 0 0 15px 0;
+}
+
+#column1 h4 {
+    font-size: 30px;
+    margin: 0 0 15px 0;
+}
+
+#column1 ul {
+    margin: 0 0 15px 0;
+}
+
+div #column2 {
+    max-width: 50%;
+    text-align: left;
+    margin: 35px auto 0 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#column2 h4 {
+    font-size: 30px;
+    margin: 0 0 15px 0;
+}
+
+#videoGroup h4 {
+    font-size: 30px;
+    margin: 0 0 15px 0;
+}
