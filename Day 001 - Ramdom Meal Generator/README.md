@@ -16,7 +16,7 @@
  Entendi como fazer tags aparecerem no HTMl via JavaScript dinamicamente e também a usar operadores ternários no código (sem eles não saberia como fazer alguma verificação no meio do HTML).
 
 ## Demonstração
- ![Vídeo de demonstração da aplicação.](D:\Programming\VSCode\WEB\Desafios\100Days100Projects\demonstracao.mp4)
+ ![](demonstracao.mp4)
 
  OBS.: Toda vez que fazemos uma requisição para a API (clicando no botão) ela retorna outra receita.
 
