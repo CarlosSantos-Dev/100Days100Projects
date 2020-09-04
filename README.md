@@ -2,7 +2,7 @@
  Este mega projeto feito pelo [Florin Pop](https://github.com/florinpop17) tem o intuito de melhorar nossas habilidades de programação contruindo VÁRIOS projetos.
 
 ## Regras
- Esta são algumas regras que ele colocou para ficar muito mais desafiador ((Você pode ver melhor clicando aqui!)[https://www.florin-pop.com/blog/2019/09/100-days-100-projects/]):
+ Esta são algumas regras que ele colocou para ficar muito mais desafiador ([Você pode ver melhor clicando aqui!](https://www.florin-pop.com/blog/2019/09/100-days-100-projects/)):
 
  - Criar um projeto por dia.
  - Um projeto pode ser: um app, um componente, um site, um jogo, uma biblioteca, etc...
