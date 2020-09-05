@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2e2e2e;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0;
+}
+
+.month {
+    font-size: 20px;
+    width: 25%;
+    height: auto;
+    margin: 15px;
+    padding: 15px;
+    display: inline-block;
+}
+
+h3 {
+    margin: 0;
+}
+
+.week_days_container, .month_days_conteiner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+.week_day, .month_day {
+    width: calc(100% / 7);
+    height: calc(100% / 7);
+    font-size: 15px;
+    margin: 2px 0;
+
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    background-color: #505050;
+    font-size: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
