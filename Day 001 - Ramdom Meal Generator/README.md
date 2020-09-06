@@ -6,7 +6,7 @@
  - HTMl básico;
  - CSS;
  - JavaScript;
- - API que fornece dados de receitas.
+ - API que fornece dados de receitas. (Toda vez que fazemos uma requisição para a API ela retorna outra receita.)
 
 ## Aprendizado
  Este desafio foi, sinceramente, um pouquinho difícil em relação à CSS e usar a API, seja fazendo tratamento dos dados ou colocando os dados na tela.
@@ -14,11 +14,6 @@
  Apesar disso tudo, aprendi a fazer uma animação num botão (foi mindblowing 🤯).
 
  Entendi como fazer tags aparecerem no HTMl via JavaScript dinamicamente e também a usar operadores ternários no código (sem eles não saberia como fazer alguma verificação no meio do HTML).
-
-## Demonstração
- ![](demonstracao.gif)
-
- OBS.: Toda vez que fazemos uma requisição para a API (clicando no botão) ela retorna outra receita.
 
 ## Finalização
  É... parece que o propósito do desafio está sendo cumprido.
