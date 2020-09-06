@@ -17,6 +17,7 @@ body {
     margin: 15px;
     padding: 15px;
     display: inline-block;
+    vertical-align: top;
 }
 
 h3 {
@@ -34,17 +35,73 @@ h3 {
     height: calc(100% / 7);
     font-size: 15px;
     margin: 2px 0;
-
 }
 
 .circle {
     width: 20px;
     height: 20px;
     background-color: #505050;
-    font-size: 15px;
+    font-size: 13px;
+    margin-bottom: 3px;
     border-radius: 50%;
     cursor: pointer;
     display: inline-flex;
     justify-content: center;
     align-items: center;
+}
+
+:root {
+    --mood-color-1: #2d6b5f;
+    --mood-color-2: #72e3a6;
+    --mood-color-3: #dff4c7;
+    --mood-color-4: #edbf98;
+    --mood-color-5: #ea3d36;
+}
+
+.mood {
+    height: 25px;
+    margin: 0 2px;
+    border: none;
+    border-radius: 10%;
+    box-shadow: 0 3px rgb(160, 159, 159);
+    outline: none;
+}
+
+.mood:hover {
+    cursor: pointer;
+}
+
+.mood:focus {
+    border-radius: 40%;
+}
+
+.mood:active {
+    box-shadow: 0 1px rgb(110, 109, 109);
+    transform: translateY(2px);
+}
+
+.mood.active {
+    border: 2px solid rgb(124, 124, 0);
+    box-shadow: none;
+    border-radius: 40%;
+}
+
+#mood1 {
+    background-color: var(--mood-color-1);
+}
+
+#mood2 {
+    background-color: var(--mood-color-2);
+}
+
+#mood3 {
+    background-color: var(--mood-color-3);
+}
+
+#mood4 {
+    background-color: var(--mood-color-4);
+}
+
+#mood5 {
+    background-color: var(--mood-color-5);
 }
