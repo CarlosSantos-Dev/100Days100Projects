@@ -9,6 +9,14 @@
  - Escolher qualquer linguagem e framework que você quiser.
  - O projeto tem que ser feito até às 23:59.
 
+## Obsevação
+ Caso eu não faça ideia de como fazer um desafio, eu vou pular ele, fazer os outros, e quando eu tiver mais experiência, eu voltarei nestes desafios.
+
+ Desafios pulados:
+
+ - 003.
+ - ...
+
 ## Finalização
  Eu tentarei fazer estes 100 projetos durante estes 100 dias, mas não tenho tanta certeza que vou conseguir fazer um projeto por dia.
 
