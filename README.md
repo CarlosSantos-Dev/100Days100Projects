@@ -14,7 +14,7 @@
 
  Desafios pulados:
 
- - 003.
+ - 3.
  - ...
 
 ## Finalização
