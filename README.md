@@ -14,7 +14,7 @@
 
  Desafios pulados:
 
- - 3.
+ - Dia 003.
  - ...
 
 ## Finalização
