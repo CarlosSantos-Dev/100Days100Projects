@@ -6,41 +6,42 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div id="initialPage" class="screen">
+    <div id="initialScreen" class="screen">
         <h1>Capture o inseto</h1>
-        <button id="playGameBtt" onclick="insectPage()">Jogar Jogo</button>
+        <button id="playGameBtt" onclick="nextPage()">Jogar Jogo</button>
     </div>
-    <div id="insectSelection" class="screen">
+    <div id="insectScreen" class="screen">
         <h1>Qual é o seu inseto "favorito"?</h1>
         <ul>
             <li>
-                <button class="insect">
+                <button id="fly" class="chooseInsect" onclick="setInsect('fly')">
                     <p>Mosca</p>
                     <img src="./images/mosca.png" alt="Imagem de uma mosca"/>
                 </button>
             </li>
             <li>
-                <button class="insect">
+                <button id="lizard" class="chooseInsect" onclick="setInsect('lizard')">
                     <p>Lagartixa</p>
                     <img src="./images/lagartixa.png" alt="Imagem de uma lagartixa"/>
                 </button>
             </li>
             <li>
-                <button class="insect">
+                <button id="roach" class="chooseInsect" onclick="setInsect('roach')">
                     <p>Barata</p>
                     <img src="./images/barata.png" alt="Imagem de uma barata"/>
                 </button>
             </li>
             <li>
-                <button class="insect">
+                <button id="worm" class="chooseInsect" onclick="setInsect('worm')">
                     <p>Minhoca</p>
                     <img src="./images/minhoca.png" alt="Imagem de uma minhoca">
                 </button>
             </li>
         </ul>
     </div>
-    <div id="gameContainer">
-
+    <div id="gameScreen">
+        <h3 id="time">Tempo: 00:00</h3>
+        <h3 id="score">Pontuação: 0</h3>
     </div>
     <script src="./script.js"></script>
 </body>
