@@ -2,39 +2,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Capture o inseto</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <div id="initialScreen" class="screen">
         <h1>Capture o inseto</h1>
-        <button id="playGameBtt" onclick="nextPage()">Jogar Jogo</button>
+        <button id="startBtn">Jogar Jogo</button>
     </div>
     <div id="insectScreen" class="screen">
         <h1>Qual é o seu inseto "favorito"?</h1>
-        <ul>
+        <ul id="insectsList">
             <li>
-                <button id="fly" class="chooseInsect" onclick="setInsect('fly')">
+                <button id="fly" class="chooseInsectBtn">
                     <p>Mosca</p>
                     <img src="./images/mosca.png" alt="Imagem de uma mosca"/>
                 </button>
             </li>
             <li>
-                <button id="lizard" class="chooseInsect" onclick="setInsect('lizard')">
+                <button id="lizard" class="chooseInsectBtn">
                     <p>Lagartixa</p>
                     <img src="./images/lagartixa.png" alt="Imagem de uma lagartixa"/>
                 </button>
             </li>
             <li>
-                <button id="roach" class="chooseInsect" onclick="setInsect('roach')">
+                <button id="roach" class="chooseInsectBtn">
                     <p>Barata</p>
                     <img src="./images/barata.png" alt="Imagem de uma barata"/>
                 </button>
             </li>
             <li>
-                <button id="worm" class="chooseInsect" onclick="setInsect('worm')">
-                    <p>Minhoca</p>
-                    <img src="./images/minhoca.png" alt="Imagem de uma minhoca">
+                <button id="bettle" class="chooseInsectBtn">
+                    <p>Besouro</p>
+                    <img src="./images/besouro.png" alt="Imagem de um besouro">
                 </button>
             </li>
         </ul>
@@ -42,6 +42,16 @@
     <div id="gameScreen">
         <h3 id="time">Tempo: 00:00</h3>
         <h3 id="score">Pontuação: 0</h3>
+        <h5 id="annoyingMessage">
+            Você já cansou? :D
+            <br/>
+            Você está jogando:
+            <br/>
+            O Jogo Impossível!
+            <br/>
+            <br>
+            Mas se quiser continuar jogando, fique à vontade! :P
+        </h5>
     </div>
     <script src="./script.js"></script>
 </body>

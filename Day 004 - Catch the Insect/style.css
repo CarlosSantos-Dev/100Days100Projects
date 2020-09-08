@@ -5,96 +5,38 @@
 }
 
 body {
+    height: 100vh;
     background-color: #5050ff;
     color: whitesmoke;
     font-size: 17px;
     font-family: "Press Start 2P";
+    text-align: center;
+	margin: 0;
 }
 
 .screen {
     max-width: 100%;
     max-height: 100%;
     width: 100vw;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	transition: margin 0.75s linear;
+}
+
+.screen.up {
+    margin-top: -100vh;
+}
+
+#insectsList {
     display: flex;
-    flex-direction: column;
-}
-
-#insectScreen {
-    max-width: 100%;
-    max-height: 100%;
-    width: 100vw;
-    height: 100vh;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
-    display: flex;
-    flex-direction: column;
-}
-
-#playGameBtt {
-    font-size: 12px;
-    font-family: "Press Start 2P";
-    color: #5050ff;
-    border: none;
-    padding: 15px;
-    outline: none;
-}
-
-#playGameBtt:hover {
-    cursor: pointer;
-}
-
-ul {
-    max-height: 150px;
-}
-
-ul li {
     list-style-type: none;
-    display: inline-block;
-    vertical-align: top;
 }
 
-.chooseInsect {
-    width: 150px;
-    height: 150px;
-    background-color: #5050ff;
-    color: whitesmoke;
-    font-size: 15px;
-    border: 2px solid whitesmoke;    
-    outline: none;
-}
-
-.chooseInsect p {
-    font-family: "Press Start 2P";
-}
-
-.chooseInsect:hover {
-    background-color: whitesmoke;
-    color: #5050ff;
-    cursor: pointer;
-}
-
-#time {
-    float: left;
-}
-
-#score {
-    float: right;
-}
-
-#time, #score {
+#insectsList li {
     margin: 20px;
-}
-
-.insect {
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    transform: translate(-50%, -50%) scale(1);
-    cursor: pointer;
-    width: 100px;
-    height: 100px;
-    transition: transform 0.3s ease-out;
 }
