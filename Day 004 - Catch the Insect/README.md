@@ -3,12 +3,12 @@
 ## Tecnologias usadas
  Este projeto também foi bem simples em relação às tecnologias usadas:
 
- - HTMl;
+ - HTML;
  - CSS;
  - JavaScript.
 
 ## Aprendizado
- Este desafio foi difícil em relação à TUDO!
+ Este desafio foi difícil em relação a TUDO!
 
  Exatamente T-U-D-O!
 
@@ -32,7 +32,7 @@
 
  Entendi como se usa o "setInterval()" e o "setTimeout()".
 
- Na minha tentativa, eu usei um "setInterval()" seguido de outro, eu acho que isso fez com que eu não prosseguisse, porque parece que duas destas funções seguida da outra no código não faz muito bem o que a gente quer.
+ Na minha tentativa, eu usei um "setInterval()" seguido de outro, eu acho que isso fez com que eu não prosseguisse, porque parece que duas destas funções seguida uma da outra no código não faz muito bem o que a gente quer.
 
  Eu pesquisei por que isso acontecia, mas não entendi muito bem...
 
@@ -43,7 +43,7 @@
  Aprendi um pouco também sobre "transform", não sei dizer muita coisa, mas aprendi um pouco.
 
 ## Finalização
- Sei que já era para eu estar no dia 010, mas não conseguir fazer este jogo me deixou um pouco chateado e desânimado.
+ Sei que já era para eu estar no dia 010, mas não conseguir fazer este jogo me deixou um pouco chateado e desanimado.
 
  Enfim, vou encarar o próximo desafio...
 
