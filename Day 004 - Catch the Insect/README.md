@@ -1,4 +1,4 @@
-# Day 004 - Catch the Insect (Dia 004 - Capture o inseto)
+# Day 004 - Catch the Insect (Dia 004 - Capture o Inseto)
 
 ## Tecnologias usadas
  Este projeto também foi bem simples em relação às tecnologias usadas:
