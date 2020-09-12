@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2e2e2e;
+    color: whitesmoke;
+    font-family: lato;
+    text-align: center;
+    justify-content: center;
+}
+
+ul li {
+    box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.7);[]
+}
+
+#followBtn {
+    background-color: violet;
+    color: whitesmoke;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+    padding: 10px 45px;
+    text-decoration: none;
+    box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.7);
+}
