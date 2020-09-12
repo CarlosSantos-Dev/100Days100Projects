@@ -5,7 +5,7 @@
 
  - HTMl;
  - CSS;
- - JavaScript;
+ - JavaScript.
 
 ## Aprendizado
  Este desafio foi difícil em relação à TUDO!
@@ -40,7 +40,7 @@
 
  Aprendi um pouco sobre "transitions", achei bem bacana os efeitos, vou passar a usar mais em meus projetos! 🤩
 
- Aprendi um pouco também sobre "transform", não sei dizer muita coisa, mas aprendi um poucol.
+ Aprendi um pouco também sobre "transform", não sei dizer muita coisa, mas aprendi um pouco.
 
 ## Finalização
  Sei que já era para eu estar no dia 010, mas não conseguir fazer este jogo me deixou um pouco chateado e desânimado.

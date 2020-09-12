@@ -5,7 +5,7 @@
 
  - HTMl básico;
  - CSS;
- - JavaScript;
+ - JavaScript.
 
 ## Aprendizado
  Este desafio foi difícil em relação à criação do calendário, levei mais de um dia tetando fazer a lógica (talvez tenha um pouco de gambiarra... 😕).
