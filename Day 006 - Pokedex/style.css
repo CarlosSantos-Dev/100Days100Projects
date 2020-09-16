@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #2e2e2e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #9e9e9e, #2e2e2e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #9e9e9e, #2e2e2e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: "Lato", Cambria, Cochin, Georgia, Times, 'Times New Roman';
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+:root {
+    --normal: #F5F5F5;
+    --fighting: #E6E0D4;
+    --flying: #F5F5F5;
+    --bug: #FCEEDA;
+    --fairy: #FCEAFF;
+    --fire: #FDDFDF;
+    --water: #DEF3FD;
+    --ground: #F4E7DA;
+    --grass: #DEFDE0;
+    --poison: #C8DFCD;
+    --eletric: #FCF7DE;
+    --psychic: #EAEDA1;
+}
+
+#pokeContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.pokemon {
+    margin: 10px;
+    padding: 10px;
+}
+
+.pokeImg {
+    width: 120px;
+    height: 120px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+img {
+    margin-top: 15px;
+}
