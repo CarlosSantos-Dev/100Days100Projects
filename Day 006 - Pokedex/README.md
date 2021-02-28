@@ -25,5 +25,5 @@ Essa desafio foi mediano, nem tão fácil, nem tão difícil.
 
 Até mais!
 
-Data de início: ?
-Data de término: 28/20/2021
+Data de início: ?/08/2020
+Data de término: 28/02/2021

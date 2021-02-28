@@ -3,7 +3,7 @@
 ## Tecnologias usadas
 Este projeto também foi bem simples em relação às tecnologias usadas:
 
-- HTMl básico;
+- HTML básico;
 - CSS;
 - JavaScript.
 
