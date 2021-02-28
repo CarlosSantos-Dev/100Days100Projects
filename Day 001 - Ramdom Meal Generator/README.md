@@ -6,7 +6,7 @@ Este projeto foi bem simples em relação às tecnologias usadas:
 - HTMl básico;
 - CSS;
 - JavaScript;
-- API que fornece dados de receitas. (Toda vez que fazemos uma requisição para a API ela retorna outra receita.)
+- [API que fornece dados de receitas](https://www.themealdb.com/api/json/v1/1/random.php). (Toda vez que fazemos uma requisição para a API ela retorna outra receita.)
 
 ## Aprendizado
 Este desafio foi, sinceramente, um pouquinho difícil em relação à CSS e usar a API, seja fazendo tratamento dos dados ou colocando os dados na tela.
